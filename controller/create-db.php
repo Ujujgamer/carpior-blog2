@@ -1,5 +1,5 @@
 <?php
+    //selects the file we want to use
     require_once("../model/database.php");
-    
-    $connection = new mysqli($host, $user, $password);
     //created a connection the server
+    $connection = new mysqli($host, $user, $password);
