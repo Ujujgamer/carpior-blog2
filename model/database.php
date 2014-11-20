@@ -1,6 +1,6 @@
 <?php
     $host = "localhost";
-    $username = "root";
+    $user = "root";
     $password = "root";
     $database = "blog_db";
     //stored my database server information

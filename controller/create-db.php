@@ -1,6 +1,6 @@
 <?php
     //selects the file with the information we want to use
-    require_once("../model/database.php");
+    require_once(__DIR__ . "/../model/database.php");
     //created a connection the server
     $connection = new mysqli($host, $user, $password);
     //checks if there was a connection error; displays error message if there is
