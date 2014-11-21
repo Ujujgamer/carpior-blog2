@@ -13,7 +13,12 @@
             
     //checks if database doesn't exist
     if(!$exists) {
-        echo "Database does not exist";
+        //creates a query and sends command to server
+        $query = $connection->query("CREATE DATABASE $database");
+        //checks if query is successful
+        if($query) {
+            echo "Successfully created a database " . $database;
+        }
     }
     
     //closes the connection
