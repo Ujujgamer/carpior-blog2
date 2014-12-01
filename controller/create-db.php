@@ -20,6 +20,10 @@
             echo "Successfully created a database " . $database;
         }
     }
+    else {
+        //shows the database already exists
+        echo "Database already exists.";
+    }
     
     //closes the connection
     $connection->close();
