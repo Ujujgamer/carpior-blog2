@@ -25,5 +25,24 @@
         echo "Database already exists.";
     }
     
+    //creates a table and assigns specific columns
+    $query = $connection->query("CREATE TABLE posts ("
+            //generates random ids
+            . "id int(11) NOT NULL AUTO_INCREMENT,"
+            //title of the post
+            . "title varchar (255) NOT NULL,"
+            //blog post information
+            . "post text NOT NULL,"
+            //sets the primary key to id
+            . "PRIMARY KEY (id))");
+    
+    //checks if the table was succesfully created
+    if($query) {
+        echo "<br>Succesfully create table: posts";
+    }
+    //errors out if a table can't be created
+    else {
+        echo "<br>$connection->error";
+    }
     //closes the connection
     $connection->close();
