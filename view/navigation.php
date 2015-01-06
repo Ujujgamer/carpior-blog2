@@ -1,8 +1,9 @@
 <?php
-require_once(__DIR__ . "/../model/congfig.php");
+//selects the config file from the model folder
+require_once(__DIR__ . "/../model/config.php");
 ?>
 <nav>
     <ul>
-        <li><a href="<?php echo $path . ""?>">Blog Post Form</a></li>
+        <li><a href="<?php echo $path . "post.php"?>">Blog Post Form</a></li>
     </ul>
 </nav>

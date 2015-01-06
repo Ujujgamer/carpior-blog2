@@ -5,7 +5,10 @@
         <group>
             <file>file:/C:/xampp/htdocs/carpior-blog/index.php</file>
             <file>file:/C:/xampp/htdocs/carpior-blog/controller/create-db.php</file>
+            <file>file:/C:/xampp/htdocs/carpior-blog/post.php</file>
             <file>file:/C:/xampp/htdocs/carpior-blog/model/database.php</file>
+            <file>file:/C:/xampp/htdocs/carpior-blog/view/navigation.php</file>
+            <file>file:/C:/xampp/htdocs/carpior-blog/model/config.php</file>
         </group>
     </open-files>
 </project-private>
